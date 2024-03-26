@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilos para el nombre del equipo */
+#equipo {
+    text-align: center;
+    color:white;
+    background-color: #673ab7;
+     /* Centro el texto */
+    /* Agrega otros estilos si es necesario */
+}
+
+/* Estilos para el entrenador */
+#entrenador {
+    text-align: center; /* Centro el texto */
+    /* Agrega otros estilos si es necesario */
+}
+
+/* Estilos para la imagen del equipo */
+#equipo-imagen {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Agrega cualquier otro estilo necesario */
+}
+
+/* Estilos para la tabla de jugadores */
+#jugadores {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-collapse: collapse; /* Evita bordes dobles */
+    /* Agrega cualquier otro estilo necesario */
+}
+
+/* Estilos para las celdas de cabecera */
+#jugadores th {
+    text-align: center;
+    padding: 8px;
+    color:white;
+    background-color: #673ab7; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+}
+
+/* Estilos para las celdas de cabecera y celdas normales */
+#jugadores th,
+#jugadores td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd; /* Borde */
+}
